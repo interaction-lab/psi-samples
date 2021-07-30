@@ -275,7 +275,7 @@ Also, in the less common case that you run a distributed ROS system in which nod
 ![Turtle Drawing](Drawing.png)
 
 # Running on Linux
-To run the sample without starting from scratch, clone psi-samples by making a new directory and using git. Make sure that WiFi is connected.
+To run the sample without starting from scratch, clone psi-samples by making a new directory and using git.
 
 ```bash
 $ git clone http://github.com/microsoft/psi-samples 
@@ -286,7 +286,7 @@ Navigate to the RosTurtleSample via terminal and start up ROS master.
 $ roscore &
 $ rosrun turtlesim turtlesim_node
 ```
-A box for the turtle simulator should appear. After this step, control-T to a new tab on the terminal and install the ROS bridge, which is included in the Microsoft.Psi.ROS package and also install Microsoft.Psi.Runtime. Run the program using dotnet to control the turtle with the arrow keys.
+A box for the turtle simulator should appear. After this step, control-T to a new tab on the terminal and install the Microsoft.Psi.ROS package and the Microsoft.Psi.Runtime package. The most recent versions can be found on: https://www.nuget.org/. Run the program using dotnet and control the turtle with the keys.
 
 ```bash
 $ dotnet run

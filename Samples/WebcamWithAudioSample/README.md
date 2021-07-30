@@ -9,9 +9,9 @@ This sample demonstrates how to capture an image stream from a webcam and an aud
 
 ## Sample Overview
 
-For this sample, create a new project with the WPF Application. This sample uses WPF to display images and UI elements in a window. The majority of the code we will be concerned with is located in the `MainWindow_Loaded` handler for the main window, located in the `MainWindow.xaml.cs` file. This is the event which will be raised when the main window is first loaded and we will use it to initialize our \psi pipeline.
+This sample uses WPF to display images and UI elements in a window. The majority of the code we will be concerned with is located in the `MainWindow_Loaded` handler for the main window, located in the `MainWindow.xaml.cs` file. This is the event which will be raised when the main window is first loaded and we will use it to initialize our \psi pipeline.
 
-The design the UI itself is defined in the `MainWindow.xaml.xml` file, but an understanding of this is not required for the purposes of this walkthrough.
+The design the UI itself is defined in the `MainWindow.xaml.xml` file, but an understanding of this is not required for the purposes of this walkthrough. For this sample, get started by creating a new project with the WPF Application.
 
 ## Capturing Video
 

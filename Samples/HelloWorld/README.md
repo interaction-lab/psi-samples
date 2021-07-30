@@ -150,18 +150,12 @@ $ dotnet run
 
 To run the program from Visual Studio Code instead, install the C# for Visual Studio Code extension. From the tool bar, choose "Run without Debugging." This should automatically produce a launch.json file.
 
-Navigate to the launch.json file and make sure that the value of the "program" key has a valid path to the .dll file. For example: 
-
-```json
-"program": "${workspaceFolder}/bin/Debug/net3.1/HelloWorld.dll"
-```
-Also, make sure that if using the RunSync() method in the program, the "console" key is updated to be an integratedTerminal rather than an internalConsole. 
+Navigate to the launch.json file and change the console type to integratedTerminal. 
 
 ```json
 "console": "integratedTerminal"
 ```
-
-Run the program one last time by dropping down from the Run option in the toolbar and choosing Run without Debugging.
+Run the program by dropping down from the Run option in the toolbar and choosing Run without Debugging.
 
 ## Next steps
 
